@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+    scroll-behavior: smooth
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Almarai", sans-serif
+}
+
+.elfsight-app-dcaa717e-eca6-4a5b-bff9-85e647f42958 {
+    position: fixed;
+    bottom: 15px;
+    right: 15px
+    
+}
+.gBiRuo {
+   right: 0 !important;
+   left: auto !important
+}
+
+.cLIsrK {
+    left: 0px;
+    right: auto;
 }

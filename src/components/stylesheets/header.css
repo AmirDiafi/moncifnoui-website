@@ -1,0 +1,53 @@
+header {
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    position: relative;
+    background: url('../../assets/images/road.jpg') center no-repeat;
+    background-size: cover;
+    //filter: brightness(0.5)
+    
+}
+
+header > .content {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+header .content h1{
+    color: #fff;
+    fomt-weight: bold;
+    font-size: 57px;
+    //filter: drop-shadow(2px 4px 6px #fff)
+}
+header div.go-down-icon {
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    cursor: pointer; 
+    animation: godown 2s ease infinite
+}
+
+@keyframes godown {
+    0%, 100%{
+        opacity: 0;
+        transform: translateY(0)
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(20px)
+    }
+}
+
+@media (max-width: 600px) {
+
+header .content h1{
+    font-size: 37px;
+}
+
+}
+

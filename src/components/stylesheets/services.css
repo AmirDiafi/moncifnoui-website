@@ -1,0 +1,42 @@
+.services {
+    margin: 50px auto
+}
+
+.services h2.title{
+    margin: 10px auto 20px
+}
+
+.services .card {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none
+}
+
+.services .card:hover {
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,.3))
+}
+
+.services .card .head {
+    border-radius: 100%;;
+    border: 1px solid #bbb;
+    width:50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px auto;
+    transition: all .2s ease
+}
+
+.services .card:hover .head {
+    background: purple;
+    color: #fff
+}
+
+.services .body {
+    font-size: 20px
+}

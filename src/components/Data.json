@@ -1,0 +1,50 @@
+{
+    "testimonials": [
+        {
+            "id": 0,
+            "name": "Amir Diafi",
+            "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 1,
+            "name": "Osama Diab",
+            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother."
+        },
+        {
+            "id": 2,
+            "name": "Mostafa Ahmed",
+            "title": "Praesentium, aspernatur debitis delectus dignissimos nobis sit commodi impedit nisi reprehenderit !"
+        },
+        {
+            "id": 3,
+            "name": "Ahlam Megan",
+            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother."
+        }
+    ],
+    "Products" : [
+        {
+            "id": 0,
+            "image": "products-01.jpg",
+            "title": "Product One",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 1,
+            "image": "products-02.jpg",
+            "title": "Product Tow",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 2,
+            "image": "products-03.jpg",
+            "title": "Product Three",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 3,
+            "image": "products-04.jpg",
+            "title": "Product Four",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        }
+    ]
+}

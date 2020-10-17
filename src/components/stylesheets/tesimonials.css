@@ -1,0 +1,21 @@
+.tesimonials {
+    margin: 50px auto;
+}
+
+.tesimonials .body {
+    padding: 10px;
+    background: url('../../assets/images/cube.gif') center ;
+    background-size: cover;
+    color: #fff;
+    margin: 20px auto
+}
+
+.tesimonials .body q.content {
+    font-size: 20px;
+}
+
+.tesimonials .body h3.name {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff
+}

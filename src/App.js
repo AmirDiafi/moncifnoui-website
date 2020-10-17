@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routers from './components/Routers'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Footer from './components/Footer'
+class App extends React.Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+componentDidMount() {
+    console.log('mounted')
+    const script = document.createElement('script')
+    script.src = "https://apps.elfsight.com/p/platform.js"
+    script.async = "true"
+    document.body.appendChild(script)
 }
 
-export default App;
+render() {
+return (
+    <Router>
+      <Routers />
+      <div className="elfsight-app-dcaa717e-eca6-4a5b-bff9-85e647f42958"></div>
+      <Footer />
+    </Router>
+  )
+}
+}
+
+export default App
