@@ -1,0 +1,24 @@
+.filter-products {
+    margin: 0 auto 50px;
+    text-align: right;
+    //background: url('../../assets/images/products-back.jpeg') ;
+    //background-size: cover;
+    padding: 0 0 20px;
+    color :#fff;
+    background: #007bff
+    
+}
+
+.filter-products .secondary-navbar {
+    background: transparent
+}
+
+.filter-products label {
+    font-weight: bold
+}
+
+.filter-products select {
+    direction: rtl;
+    border: 1px solid #007bff;
+    width:50%
+}

@@ -30,15 +30,18 @@ class Testimonials extends React.Component {
         return (
             <div className="tesimonials" id="tesimonials">
                 <h2 className="title text-center">
-                    What our client said about me
+                    ماذا قال الناس حول خدماتي
                 </h2>
-                <div className="body text-center">
-                    <q className='content'>
-                        {this.state.testimonial.title}
-                    </q>
+		<div className="text-center head">
+                <div className="">
+		    <img src={"people/"+this.state.testimonial.image} alt="" />
                     <h3 className='name'>
                         {this.state.testimonial.name}
                     </h3>
+                </div>
+                <q className='content'>
+                    {this.state.testimonial.title}
+                </q>
                 </div>
             </div>
         )

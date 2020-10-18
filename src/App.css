@@ -5,26 +5,28 @@
 
 
 h2.title{
-    position: relative
+    position: relative;
+    padding-bottom: 10px
 }
 
 h2.title::after {
     content: "";
     width: 30%;
-    background: purple;
+    background: #2196f3;
     height: 2px;
     display: block;
-    margin: 5px auto;
+    margin: 20px auto 0;
 }
 
 h2.title::before {
     content: "";
-margin: auto;
-position: absolute;
-bottom:-20px;left:50%;
-transform: translateX(-50%);
+    margin: auto;
+    position: absolute;
+    bottom:-10px;
+    left:50%;
+    transform: translateX(-50%);
     border: 10px solid;
-    border-top-color: purple;
+    border-top-color: #2196f3;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;

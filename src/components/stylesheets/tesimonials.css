@@ -2,20 +2,29 @@
     margin: 50px auto;
 }
 
-.tesimonials .body {
+.tesimonials .head {
     padding: 10px;
-    background: url('../../assets/images/cube.gif') center ;
+    background: url('../../assets/images/header.jpeg') center ;
     background-size: cover;
     color: #fff;
-    margin: 20px auto
+    margin: 20px auto;
 }
 
-.tesimonials .body q.content {
-    font-size: 20px;
+.tesimonials .head img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 2px solid #2196f3
 }
 
-.tesimonials .body h3.name {
+.tesimonials .head h3.name {
     font-size: 17px;
     font-weight: bold;
     color: #fff
+}
+
+.tesimonials .head q.content {
+    font-size: 20px;
+    font-style: italic
 }

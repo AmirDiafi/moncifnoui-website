@@ -34,6 +34,15 @@ footer .copy {
     margin-top:5px
 }
 
+footer .copy .developer {
+    font-weight: normal
+}
+
+footer .copy .developer a {
+    font-weight: bold;
+    text-decoration: underline
+}
+
 footer .footer-line {
     position: absolute;
     display: block;

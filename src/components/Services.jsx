@@ -1,11 +1,13 @@
 import React from 'react'
-import {FiActivity, FiAirplay, FiBarChart} from 'react-icons/fi'
+import {FiUsers} from 'react-icons/fi'
+import {GiTeacher} from 'react-icons/gi'
+import {FaStore, FaBriefcase} from 'react-icons/fa'
 import './stylesheets/services.css'
 import {Link} from 'react-router-dom'
 
 class Services extends React.Component {
     state = {  }
-    render() { 
+    render() {
         return (
             <div className="services">
                 <h2 className="title text-center">الخدمات</h2>
@@ -13,7 +15,7 @@ class Services extends React.Component {
                     <div className="col col-12 col-md-4">
                         <Link to='works' className="card">
                             <div className="head">
-                                <FiActivity />
+                                <FaBriefcase />
                             </div>
                             <div className="body">
                                 فرص عمل
@@ -23,7 +25,7 @@ class Services extends React.Component {
                     <div className="col col-12 col-md-4">
                         <Link to='products'  className="card">
                             <div className="head">
-				 <FiAirplay />                         
+				                <FaStore />                         
                             </div>
                             <div className="body">
                                 المنتوجات
@@ -33,7 +35,7 @@ class Services extends React.Component {
                     <div className="col col-12 col-md-4">
                         <Link  to='teach' className="card">
                             <div className="head">
-                                <FiBarChart />
+                                <GiTeacher />
                             </div>
                             <div className="body">
                                 إستشارات وتكوين

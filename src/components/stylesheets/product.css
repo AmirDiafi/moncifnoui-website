@@ -1,5 +1,5 @@
 .products {
-    margin: 100px auto
+    margin: 0 auto 50px
 }
 
 .product {
@@ -8,17 +8,22 @@
 
 .product .card .head img{
     width:100%;
-    height: 150px
+    height: 200px
 }
 
 .product .card .body{
      padding: 10px
 }
 
+.product .card .desc {
+    text-align: start
+}
+
 .product .prices {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    direction: ltr
 }
 
 .product .price {
@@ -36,5 +41,10 @@
 
 .product a.order {
     display: block;
+    font-weight: bold;
     margin: 15px auto;
+}
+
+.product a.order svg {
+    font-size: 20px;
 }

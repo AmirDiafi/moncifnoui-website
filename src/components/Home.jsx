@@ -5,6 +5,7 @@ import About from './About'
 import Services from './Services'
 import Testimonilas from './Testimonials'
 import Contact from './Contact'
+import Companies from './Companies'
 
 function Home() {
   return (
@@ -19,6 +20,8 @@ function Home() {
 	      <hr id="testimonials"/>
       </div>
       <Testimonilas />
+        <hr id="companies"/>
+      < Companies />
       <div className="container">
 	      <hr id="contact"/>
         <Contact />

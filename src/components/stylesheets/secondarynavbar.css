@@ -1,0 +1,19 @@
+.secondary-navbar {
+    padding: 0 10px;
+    margin: 0 auto 30px;
+    background: #007bff;
+    padding: 10px;
+    color :#fff;
+}
+
+.secondary-navbar a {
+    font-size: 35px;
+    color :inherit;
+    display: flex;
+    text-align: right;
+    
+}
+
+.secondary-navbar a:hover {
+    color :inherit
+}

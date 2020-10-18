@@ -7,7 +7,9 @@ class Navbar extends React.Component {
         return (
             <nav className="navbar">
                 <div className="logo">
-                    <span>MON</span>CIF
+                    <a  href="#home">
+                        <span>MON</span>CIF
+                    </a>
                 </div>
                 <ul className='list-unstyled'>
                     <li>

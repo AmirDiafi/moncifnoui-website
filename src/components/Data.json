@@ -2,49 +2,266 @@
     "testimonials": [
         {
             "id": 0,
+            "image": "amir.jpg",
             "name": "Amir Diafi",
-            "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "شكرا لك أخي منصف, منتوج بناء العضلات التي بعتني إياه كان رائعا, لقد نفعني في توفير مواردي المالية التي كنت أضيعها في منتوجات لا أخرى لا تسمن ولا تغني من جوع..شكرا"
         },
         {
             "id": 1,
+            "image": "people.png",
             "name": "Osama Diab",
-            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother."
+            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother;.Thank you brother.. your services are amazing"
         },
         {
             "id": 2,
+            "image": "people.png",
             "name": "Mostafa Ahmed",
-            "title": "Praesentium, aspernatur debitis delectus dignissimos nobis sit commodi impedit nisi reprehenderit !"
+            "title": "Praesentium, aspernatur debitis delectus dignissimos nobis sit commodi impedit nisi reprehenderit !Thank you brother.. your services are amazing"
         },
         {
             "id": 3,
+            "image": "people.png",
             "name": "Ahlam Megan",
-            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother."
+            "title": "This product you sold me Mondif is amazing.., it help me alot in my exercise; Thank you brother.. your services are amazing"
         }
     ],
     "Products" : [
         {
             "id": 0,
-            "image": "products-01.jpg",
+            "type": ["fitness", "single"],
+            "image": "products-01.png",
             "title": "Product One",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
         },
         {
             "id": 1,
-            "image": "products-02.jpg",
+            "type": ["makeup", "single"],
+            "image": "products-02.png",
             "title": "Product Tow",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
         },
         {
             "id": 2,
-            "image": "products-03.jpg",
-            "title": "Product Three",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "type": ["other", "assemble"],
+            "image": "products-03.png",
+            "title": "سبورتيفر",
+            "desc": "تنمحك زيادة كثافة نشاطك الطاقوي و تغذية متكاملة للعضلات, تحسين أداءك الرياضي و التمتع بلياقة بدنية جيدة , تناسب كل شخص اكثرمن 18سنة ."
         },
         {
             "id": 3,
-            "image": "products-04.jpg",
-            "title": "Product Four",
+            "type": ["fitness", "single"],
+            "image": "products-04.png",
+            "title": "فوريفر  فريدوم",
+            "desc": "بذوق البرتقال و تركبيته الفريدة بفضل فيتامين c  و يساعد على تكوين الطبيعي للكولاجين و استرجاع الوظيفة الطبيعية للعظام و الغضاريف"
+        },
+        {
+            "id": 4,
+            "type": ["fitness", "single"],
+            "image": "products-05.png",
+            "title": "فوريفر ارجي+",
+            "desc": "مكمل غذائ  قاعدته ارجنين ريبوز, يرافيقكم بفعالية خلال و بعد ممارسة رياضة  , زيادة مقاومةو الحفاظ على قوتكم و طاقتكم حتى في اصعب تمارين و اقصاها , يساهم في مردود ايض الطاقوي العالي و كذا الغيليكوجين ."
+        },
+        {
+            "id": 5,
+            "type": ["fitness", "single"],
+            "image": "products-06.png",
+            "title": "فوريفر لب  الويفيرا",
+            "desc": "مكمل غذائي غني بالعناصر الأساسية و للحفاظ علي  الرفاهية القصوى و الحفاظ على الجهاز المناعي  و لديه  مضدات الأكسدة  قوية  تساعد على تعزيز دفاعات الجسم و يحفز  على  زيادة معدل الأيض و مفيد  في حالات التعب و إرهاق."
+        },
+        {
+            "id": 6,
+            "type": ["fitness", "single"],
+            "image": "products-07.png",
+            "title": "Product five",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 7,
+            "type": ["fitness", "single"],
+            "image": "products-08.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 8,
+            "type": ["fitness", "single"],
+            "image": "products-09.png",
+            "title": "فوريفر ارتيك سي",
+            "desc": "تساهم الأحماض الغير الدهنية في السير العادي للدماغ و القلب  و تحافظ على الرؤية ."
+        },
+        {
+            "id": 9,
+            "type": ["fitness", "single"],
+            "image": "products-10.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 10,
+            "type": ["fitness", "single"],
+            "image": "products-11.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 11,
+            "type": ["fitness", "single"],
+            "image": "products-12.png",
+            "title": "الوى هيت لوشن",
+            "desc": "يعتبر  مرهم  تديليك فعال و مثالي لتخفيف الام المفاصيل و إعداد العضلات للتمارين عن طريق زيوت الكاليتوس و الجوجوبا و المشمش واحساس مذهل بالدفئ ."
+        },
+        {
+            "id":12,
+            "type": ["fitness", "single"],
+            "image": "products-13.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 13,
+            "type": ["fitness", "single"],
+            "image": "products-14.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 14,
+            "type": ["fitness", "assemble"],
+            "image": "products-15.png",
+            "title": "برنامج  ديتوكس",
+            "desc": "يستعمل قصد تنظيف الجسم من السموم  و سوائل الضارة , تعديل الشهية, رفع معدل حرق ,تقوية جهاز مناعي , تخلص من  مشاكل القولون ,حفاظ على كتلة عضلية , انقاص الوزن بين 6-11 كغ في مدة 9 ايام."
+        },
+        {
+            "id": 15,
+            "type": ["fitness", "single"],
+            "image": "products-16.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 16,
+            "type": ["fitness", "single"],
+            "image": "products-17.png",
+            "title": "فوريفر ثيرم ",
+            "desc": "عبارة عن حارق الدهون يحتوي على مستخلصات الشاي اخضر  و البن الأخضر ومتعدد فيتامين B,يساعد على الحفاظ على الوزن , زيادة الأكسدة الدهون , مفيد في حالة التعب ."
+        },
+        {
+            "id": 17,
+            "type": ["fitness", "single"],
+            "image": "products-18.png",
+            "title": "فوريفر اكتيفاha ",
+            "desc": "يساعد حمض هاليونيك على تأمين مرونة العظام و خاصة غضروف المفاصل ."
+        },
+        {
+            "id": 18,
+            "type": ["fitness", "single"],
+            "image": "products-19.png",
+            "title": "فوريفر كالسيوم",
+            "desc": "يوزد الكمية الكافية اليومية التي يحتاجها   الجسم و تحافظ على بنية العظام وظيفة العضلات العادية لضمان وظيفة الغضاريف بصفة عادية."
+        },
+        {
+            "id": 19,
+            "type": ["fitness", "single"],
+            "image": "products-20.png",
+            "title": "فوريفر ايل ثيم ",
+            "desc": "مزيج من نبتتين معروفتين الثوم و الزعتر  دوروهما في تأمين الراحة الجهاز الهضمي كبسولة بدون رائحة  تعادل 1000مغ من ثوم طازج ."
+        },
+        {
+            "id": 20,
+            "type": ["fitness", "single"],
+            "image": "products-21.png",
+            "title": "فوريفر  روايال جيلي",
+            "desc": "يعد غداء الملكة مثاليا للوقاية من اثار الفترة الشتوية و يعزز دفاعات الطبيعية بكل نعومة لمواجهه فصل شتاء بأحسن حال ."
+        },
+        {
+            "id": 21,
+            "type": ["fitness", "single"],
+            "image": "products-22.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 22,
+            "type": ["fitness", "single"],
+            "image": "products-23.png",
+            "title": "فوريفر لين ",
+            "desc": "يساعد على حفاظ  على نسبة السكر في الدم و تعديل الأيض , تقليل من  معدل استهلاك السعرات الحرارية اليومية و تضمن  تحكما اكبر في الوزن ."
+        },
+        {
+            "id": 23,
+            "type": ["fitness", "single"],
+            "image": "products-24.png",
+            "title": "الوي MSM",
+            "desc": "غني بالكبريت العضوي بتركيز عال , سولفات الكوندويتين و الجلوكوزامين و يلعب دورا  هاما للحفاظ على نسيج الضام و البروتينات."
+        },
+        {
+            "id": 24,
+            "type": ["fitness", "assemble"],
+            "image": "products-25.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 25,
+            "type": ["fitness", "single"],
+            "image": "products-26.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 26,
+            "type": ["fitness", "single"],
+            "image": "products-27.png",
+            "title": "فوريفر الترا لايت",
+            "desc": "بروتين  نباتي للحفاظ على الرشافة و الكتلة العضلية , يمكن تكمل  15 وجبة   خفيفة بتوفير الفيتامينات و المعادن و الكربوهيدرات في  اداء العادي لعملية الأيض الطاقوي."
+        },
+        {
+            "id": 27,
+            "type": ["fitness", "single"],
+            "image": "products-28.png",
+            "title": "منقوع  زهرة الوا",
+            "desc": "مشروب ذو نكهة الشهية واللطيفة  يوفر  راحة للجهاز الهضمي و يعيد  تمييه الجسم بكل لطف و مفيد جدا لحالات التعب و الإرهاق القلق,ارق النوم"
+        },
+        {
+            "id": 28,
+            "type": ["fitness", "single"],
+            "image": "products-29.png",
+            "title": "Product five",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+        },
+        {
+            "id": 29,
+            "type": ["fitness", "single"],
+            "image": "products-30.png",
+            "title": "فوريفر اكتيف برو-بيي",
+            "desc": " تحسن  من اداء الجسم و تشعر بالراحة المعوية  وتعزيز النبتات المعوية"
         }
+    ],
+
+    "Companies" : [
+        {
+            "id": 0,
+            "image": "company-01.png",
+            "title": "Amir Diafi",
+   	    "href": "https://amirdiafi.com"
+	},
+        {
+            "id": 1,
+            "image": "company-02.png",
+            "title": "React Js",
+   	    "href": "https://amirdiafi.com"
+        },
+        {
+            "id": 2,
+            "image": "company-03.png",
+            "title": "Forever",
+   	    "href": "https://amirdiafi.com"
+	},
+        {
+            "id": 3,
+            "image": "company-02.png",
+            "title": "Company One",
+   	    "href": "https://amirdiafi.com"
+	}
     ]
 }

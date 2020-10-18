@@ -3,7 +3,7 @@ header {
     background: #333;
     color: #fff;
     position: relative;
-    background: url('../../assets/images/road.jpg') center no-repeat;
+    background: url('../../assets/images/header-5.jpeg') center no-repeat;
     background-size: cover;
     //filter: brightness(0.5)
     
@@ -18,14 +18,14 @@ header > .content {
 
 header .content h1{
     color: #fff;
-    fomt-weight: bold;
+    font-weight: 300;
     font-size: 57px;
     //filter: drop-shadow(2px 4px 6px #fff)
 }
 header div.go-down-icon {
     position: absolute;
     bottom:20px;
-    left: 50%;
+    left: 45%;
     transform: translateX(-50%);
     font-size: 40px;
     cursor: pointer; 

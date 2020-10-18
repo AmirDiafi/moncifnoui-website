@@ -9,3 +9,11 @@
 .contact .item {
     font-size: 20px
 }
+
+.contact .item a {
+    color: #000
+}
+
+.contact .item a svg {
+    color: #2196f3
+}
