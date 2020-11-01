@@ -18,7 +18,7 @@ class Testimonials extends React.Component {
             this.setState({
                 testimonial: Data.testimonials[index]
             })
-        }, 3000)
+        }, 10000)
     }
 
     componentWillUnmount() {

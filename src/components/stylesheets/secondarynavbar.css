@@ -1,9 +1,10 @@
 .secondary-navbar {
     padding: 0 10px;
     margin: 0 auto 30px;
-    background: #007bff;
+    background: linear-gradient(360deg, rgba(255,255,255, .5), #007bff);
     padding: 10px;
     color :#fff;
+    height: 70px
 }
 
 .secondary-navbar a {

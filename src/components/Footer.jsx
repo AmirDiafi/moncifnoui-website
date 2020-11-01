@@ -1,37 +1,25 @@
 import React from 'react'
 import './stylesheets/footer.css'
-import {FaLinkedin, FaTwitter, FaFacebook, FaYoutube, FaInstagram} from 'react-icons/fa'
+import {FaLinkedin, FaFacebook, FaInstagram} from 'react-icons/fa'
 
 function Footer() {
     return(
         <footer className='row'>
             <div className="footer-links col col-12">
             <a 
-                href="https://twitter.com/amir_diafiU" 
-                target="_blank"
-                rel="noopener noreferrer">
-                <FaTwitter/>
-            </a>
-            <a 
-                href="https://www.linkedin.com/in/amirdiafi" 
-                target="_blank"
-                rel="noopener noreferrer">
-                <FaYoutube/>
-            </a>
-            <a 
-                href="https://www.youtube.com/channel/UCgbqyUzyD2IfqYoc0RcS2MA" 
+                href="https://www.facebook.com/profile.php?id=100014100945642" 
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaFacebook/>
             </a>
             <a 
-                href="https://github.com/AmirDiafi" 
+                href="https://www.instagram.com/moncif_noui" 
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaInstagram/>
             </a>
             <a 
-                href="https://github.com/AmirDiafi" 
+                href="https://linkedin.com/in/noui-moncif-376535183" 
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaLinkedin/>
@@ -39,7 +27,9 @@ function Footer() {
             </div>
             <div className="copy col col-12">
                 2020 &copy; Moncif Noui
-		<p className="developer">Designed and Developed By <a href="https://amirdiafi.com"> Amir Diafi </a> </p>
+		        <p className="developer">
+                    Designed and Developed By <a href="https://amirdiafi.com"> Amir Diafi </a>
+                </p>
             </div>
             <div className="footer-line"></div>
         </footer>

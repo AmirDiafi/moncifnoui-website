@@ -1,5 +1,4 @@
 import React from 'react'
-import {FiUsers} from 'react-icons/fi'
 import {GiTeacher} from 'react-icons/gi'
 import {FaStore, FaBriefcase} from 'react-icons/fa'
 import './stylesheets/services.css'
@@ -28,7 +27,7 @@ class Services extends React.Component {
 				                <FaStore />                         
                             </div>
                             <div className="body">
-                                المنتوجات
+                                المتجر
                             </div>
                         </Link>
                     </div>

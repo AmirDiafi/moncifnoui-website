@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    direction: rtl
+    direction: rtl;
 }
 
 body {
@@ -8,10 +8,6 @@ body {
   font-family: "Almarai", sans-serif
 }
 
-.elfsight-app-dcaa717e-eca6-4a5b-bff9-85e647f42958 {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    z-index: 5
-    
+* {
+    user-select: none
 }

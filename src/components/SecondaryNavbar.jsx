@@ -1,7 +1,7 @@
 import React from 'react'
 import './stylesheets/secondarynavbar.css'
 import {Link} from 'react-router-dom'
-import {FaHome} from 'react-icons/fa'
+import {FiHome} from 'react-icons/fi'
 
 class FilterProducts extends React.Component {
 
@@ -9,7 +9,7 @@ class FilterProducts extends React.Component {
         return (
             <div className="secondary-navbar">
                 <Link to="/">
-                    <FaHome />
+                    <FiHome />
                 </Link>
             </div>
         )

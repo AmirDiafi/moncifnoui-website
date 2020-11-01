@@ -4,6 +4,7 @@ import './stylesheets/navbar.css'
 class Navbar extends React.Component {
     state = {  }
     render() { 
+        let location = window.location.hash
         return (
             <nav className="navbar">
                 <div className="logo">
@@ -13,27 +14,27 @@ class Navbar extends React.Component {
                 </div>
                 <ul className='list-unstyled'>
                     <li>
-                        <a href="#home">
+                        <a className={location==="#home"?"active":null} href="#home">
                             الرئيسية
                         </a>
                     </li>
                     <li>
-                        <a href="#about">
+                        <a className={location==="#about"?"active":null} href="#about">
                             حول
                         </a>
                     </li>
                     <li>
-                        <a href="#services">
+                        <a className={location==="#services"?"active":null} href="#services">
                             الخدمات
                         </a>
                     </li>
                     <li>
-                        <a href="#testimonials">
+                        <a className={location==="#testimonials"?"active":null} href="#testimonials">
                             الشهادات
                         </a>
                     </li>
                     <li>
-                        <a href="#companies">
+                        <a className={location==="#companies"?"active":null} href="#companies">
                             شركائنا
                         </a>
                     </li>

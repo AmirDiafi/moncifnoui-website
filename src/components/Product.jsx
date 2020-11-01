@@ -18,19 +18,26 @@ class Product extends React.Component {
                         <h4 className="title text-center">
                             {this.props.data.title}
                         </h4>
-			<hr/>
+			            <hr/>
                         <p className="desc">
                             {this.props.data.desc}
                         </p>
                         <div className='prices' >
-                            <span className='price old'>
-                                23.400 DZD 
+                            {this.props.data.oldPrice
+                            ?<span className='price old'>
+                                {this.props.data.oldPrice} DZD 
                             </span>
+                            :null}
                             <span className='price new'>
-                                18.000 DZD
+                                {this.props.data.newPrice} DZD
                             </span>
+                        </div>
+                        <div className="ref">
+                            Ref: {this.props.data.ref}
                         </div>				
                         <a 
+			    target="_blank"
+			    rel="noopener noreferrer"
                             href="https://wa.me/213556374256" 
                             className="btn btn-primary order">
                             <FaShoppingCart/> أطلب الأن

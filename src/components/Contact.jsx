@@ -14,26 +14,45 @@ class Contact extends React.Component {
                 <h2 className=" title">
                     تواصل معنا 
                 </h2>
-		        <div className="info">
+		        <div className="info" dir="ltr">
                     <div className='item'> 
-                        <a href="mailto:amirdiafi2@gmail.com">
-                           <FaEnvelope/> barikanoui@gmail.com
+			<FaEnvelope/>
+			<br />
+                        <a href="mailto:dz.flp.mino@gmail.com">
+                           dz.flp.mino@gmail.com
                         </a>
                     </div>
                     <hr/>
                     <div className='item'> 
-                        <a href="tel:+213665868409">
-                            <FaPhone /> +213665868409
+			<FaPhone />
+                        <div>
+			    <a href="tel:+213556374256">
+                            +213556374256
                         </a>
+                        <hr/>
+			<a href="tel:+213662585829">
+                             +213662585829
+                        </a>
+			</div>
                     </div>
                     <hr/>
                     <div className='item'>
-                        <a 
-                            href="https://linkedin.com/amir_diafi" 
+			<FaWhatsapp/>
+                        <div className="">
+			    <a 
+                            href="https://wa.me/213556374256" 
                             target="_blank"
                             rel="noopener noreferrer">
-                            <FaWhatsapp/> Moncif Noui
+                            +213556374256
                         </a>
+                        <hr/>
+			<a 
+                            href="https://wa.me/213662585829" 
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            +213662585829
+                        </a>
+			</div>
                     </div>
                 </div>
 		</div>

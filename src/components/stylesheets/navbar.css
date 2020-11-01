@@ -30,7 +30,9 @@ nav.navbar ul {
     display: flex;
     text-align: right;
     margin:0;
-    padding: 10px
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 nav.navbar ul li {
@@ -51,7 +53,8 @@ nav.navbar ul li a {
 }
 
 nav.navbar ul li a:hover,
-nav.navbar ul li a:focus {
+nav.navbar ul li a:focus,
+nav.navbar ul li a.active {
     color: #2196f3;
     background: #fff
 }

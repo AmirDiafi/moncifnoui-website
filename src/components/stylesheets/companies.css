@@ -16,8 +16,7 @@
 }
 
 .companies a li img{
-    width: 70px;
-    height: 70px;
+    height: 100px;
     filter: grayscale(1);
     transition: all .2s linear
 }

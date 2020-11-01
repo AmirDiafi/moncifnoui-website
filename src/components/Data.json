@@ -28,212 +28,275 @@
     "Products" : [
         {
             "id": 0,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-01.png",
-            "title": "Product One",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE FIRST",
+            "newPrice": "3.600",
+            "ref": "40",
+            "desc": "رذاذ لإستعمال يومي وعلى مدار السنة لترطيب البشرة الوجه و الجسم و إنعاشها ,تركبيته استثنائية مكون من 11 نبتة صينية اضافة الى الويفيرا و العكبر و للألنطولين, صيغةPHحيادية للبشرة الحساسة وبشرة  للأطفال "
         },
         {
             "id": 1,
-            "type": ["makeup", "single"],
+            "type": ["beauty", "single"],
             "image": "products-02.png",
-            "title": "Product Tow",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE MOISTURIZING LOTION",
+            "newPrice": "2.700",
+            "ref": "63",
+            "desc": " مستحضر يحمي  البشرة و يغذيها غني بالكولاجين و ايلاستين ,يرطب البشرة و يشدها , تستعيد مرونتها و نعومتها و تبدو وكأنما تم تمليسها ,يليق بالبشرة الحساسة ."
         },
         {
             "id": 2,
-            "type": ["other", "assemble"],
+            "type": ["fitness", "pack"],
             "image": "products-03.png",
-            "title": "سبورتيفر",
-            "desc": "تنمحك زيادة كثافة نشاطك الطاقوي و تغذية متكاملة للعضلات, تحسين أداءك الرياضي و التمتع بلياقة بدنية جيدة , تناسب كل شخص اكثرمن 18سنة ."
-        },
+            "title": "PACK SPORTEVER",
+            "oldPrice": "22.000",
+            "newPrice": "16.800",
+            "ref": "845",
+            "desc": "تنمحك زيادة   كثافة نشاطك الطاقوي و تغذية متكاملة للعضلات, تحسين أداءك الرياضي و التمتع بلياقة بدنية جيدة , تناسب كل شخص اكثرمن 18سنة ."
+            },
         {
             "id": 3,
-            "type": ["fitness", "single"],
+            "type": ["well", "single"],
             "image": "products-04.png",
-            "title": "فوريفر  فريدوم",
-            "desc": "بذوق البرتقال و تركبيته الفريدة بفضل فيتامين c  و يساعد على تكوين الطبيعي للكولاجين و استرجاع الوظيفة الطبيعية للعظام و الغضاريف"
+            "title": "FOREVER FREEDOM",
+            "newPrice": "6.300",
+            "ref": "196",
+            "desc": "بذوق البرتقال و تركبيته الفريدة بفضل فيتامين c  يساعد على تكوين الطبيعي للكولاجين و استرجاع الوظيفة الطبيعية للعظام و الغضاريف"
         },
         {
             "id": 4,
             "type": ["fitness", "single"],
             "image": "products-05.png",
-            "title": "فوريفر ارجي+",
-            "desc": "مكمل غذائ  قاعدته ارجنين ريبوز, يرافيقكم بفعالية خلال و بعد ممارسة رياضة  , زيادة مقاومةو الحفاظ على قوتكم و طاقتكم حتى في اصعب تمارين و اقصاها , يساهم في مردود ايض الطاقوي العالي و كذا الغيليكوجين ."
+            "title": "FOREVER ARGI+ ",
+            "newPrice": "9.300",
+            "ref": "473",
+            "desc": "مكمل غذائ  قاعدته الأرجنين ريبوز, يرافيقكم بفعالية خلال و بعد ممارسة رياضة  , لزيادة المقاومةو الحفاظ على قوتكم و طاقتكم حتى في اصعب التمارين و اقصاها , يساهم في مردود ايض الطاقوي العالي و كذا الغيليكوجين ."
         },
         {
             "id": 5,
-            "type": ["fitness", "single"],
+            "type": ["well", "single"],
             "image": "products-06.png",
-            "title": "فوريفر لب  الويفيرا",
+            "title": "FOREVER ALOEVERA GEL",
+            "newPrice": "4.600",
+            "ref": "15",
             "desc": "مكمل غذائي غني بالعناصر الأساسية و للحفاظ علي  الرفاهية القصوى و الحفاظ على الجهاز المناعي  و لديه  مضدات الأكسدة  قوية  تساعد على تعزيز دفاعات الجسم و يحفز  على  زيادة معدل الأيض و مفيد  في حالات التعب و إرهاق."
         },
         {
             "id": 6,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-07.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "SAVON CORPS ET VISAGE A L’AVOCAT",
+            "newPrice": "900",
+            "ref": "284",
+            "desc": "غني بزبدة الأفوكادو يستعمل لتنظيف كل انواع البشرة حتى أكثر حساسية , يرطبها و يمنحها قوة و نشاطا , تبقى رائحة الليمون الممتعة , لترطيب طبقات العليا للبشرة ."
         },
         {
             "id": 7,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-08.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "FOREVER ALOE SCRUB",
+            "newPrice": "2.900",
+            "ref": "238",
+            "desc": "يساعد هاذا الكريم المخملية على التخلص من الشوائب و الخلايا الميتة و تليين البشرة و استعادة نضارتها , يليق بكل  أنواع البشرة ."
         },
         {
             "id": 8,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-09.png",
-            "title": "فوريفر ارتيك سي",
+            "title": "FOREVER ARTIC-SEA",
+            "newPrice": "5.500",
+            "ref": "376",
             "desc": "تساهم الأحماض الغير الدهنية في السير العادي للدماغ و القلب  و تحافظ على الرؤية ."
         },
         {
             "id": 9,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-10.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE VERA GELLY",
+            "newPrice": "2.700",
+            "ref": "61",
+            "desc": "يرطب و يجدد خلايا البشرة , يهدئ تهيجات الجلد , مضاد للإلتهابات البشرة (الشقوق,الخدوش,الإحمرار , أشعة الشمس )"
         },
         {
             "id": 10,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-11.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE PROPOLIS créme",
+            "newPrice": "3.600",
+            "ref": "51",
+            "desc": "مزيج الوي و العكبر يمنح عناية فائقة وفعالة للبشرة , مضادة للبكتيريا ,مرمم و مهدئ للتهيجات جلدية البسيطة ,  ويضيف على البشرة نعومة و ليونة يلائم البشرة الجافة و الخشنة ."
         },
         {
             "id": 11,
             "type": ["fitness", "single"],
             "image": "products-12.png",
-            "title": "الوى هيت لوشن",
-            "desc": "يعتبر  مرهم  تديليك فعال و مثالي لتخفيف الام المفاصيل و إعداد العضلات للتمارين عن طريق زيوت الكاليتوس و الجوجوبا و المشمش واحساس مذهل بالدفئ ."
+            "title": "ALOE HEAT LOTION",
+            "newPrice": "2.700",
+            "ref": "64",
+            "desc": "يعتبر  مرهم  تدليك فعال و مثالي لتخفيف الام المفاصيل و إعداد العضلات للتمارين عن طريق زيوت الكاليتوس و الجوجوبا و المشمش وشعور احساس مذهل بالدفئ ."
         },
         {
             "id":12,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-13.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "DENTIFRICE FOREVER BRIGHT",
+            "newPrice": "1.400",
+            "ref": "28",
+            "desc": "هلام تنظيف أسنان بدون فليور , يعيد بياض الأسنان , يمنح شعور إنتعاش الطبيعي , تنقية الفم من البكتيريا , يزيل نزيف اللثة نهائيا ."
         },
         {
             "id": 13,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-14.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ECRAN SOLAIRE ALOE",
+            "newPrice": "2.700",
+            "ref": "199",
+            "desc": "فعالية (spf30)  واقي قوي للبشرة ضد أثار الوخيمة للشمس  وأثار التقدم في السن بفضل تركيبتها الخفيفة و المرطبة دون الشعور بالإلتصاق و لا يزول بفعل الماء ."
         },
         {
             "id": 14,
-            "type": ["fitness", "assemble"],
+            "type": ["fitness", "pack"],
             "image": "products-15.png",
-            "title": "برنامج  ديتوكس",
-            "desc": "يستعمل قصد تنظيف الجسم من السموم  و سوائل الضارة , تعديل الشهية, رفع معدل حرق ,تقوية جهاز مناعي , تخلص من  مشاكل القولون ,حفاظ على كتلة عضلية , انقاص الوزن بين 6-11 كغ في مدة 9 ايام."
+            "title": "PACK DETOX",
+            "oldPrice": "23.300",
+            "newPrice": "17.700",
+            "ref": "860",
+            "desc": "يستعمل قصد تنظيف الجسم من السموم  و سوائل الضارة , تعديل الشهية, رفع معدل حرق ,تقوية جهاز مناعي , تخلص من  مشاكل القولون ,حفاظ على كتلة عضلية , إنقاص الوزن بين 6-11 كغ في مدة 9 ايام."
         },
         {
             "id": 15,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-16.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "BIO-CELLULOSE MASK",
+            "newPrice": "1.700",
+            "ref": "616",
+            "desc": "استخدمت أحدث التقنيات لتصنيع  قناع السيليلوز , يلطف و يرطب البشرةو يعيد لها نعومتها ."
         },
         {
             "id": 16,
             "type": ["fitness", "single"],
             "image": "products-17.png",
-            "title": "فوريفر ثيرم ",
-            "desc": "عبارة عن حارق الدهون يحتوي على مستخلصات الشاي اخضر  و البن الأخضر ومتعدد فيتامين B,يساعد على الحفاظ على الوزن , زيادة الأكسدة الدهون , مفيد في حالة التعب ."
+            "title": "FOREVER THERM",
+            "newPrice": "4.900",
+            "ref": "463",
+            "desc": "عبارة عن حارق الدهون يحتوي على مستخلصات الشاي الأخضر  و البن الأخضر ومتعدد فيتامين B,يساعد على الحفاظ على الوزن , زيادة الأكسدة الدهون , مفيد في حالة التعب ."
         },
         {
             "id": 17,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-18.png",
-            "title": "فوريفر اكتيفاha ",
+            "title": "FOREVER ACTIVE HA",
+            "newPrice": "5.500",
+            "ref": "264",
             "desc": "يساعد حمض هاليونيك على تأمين مرونة العظام و خاصة غضروف المفاصل ."
         },
         {
             "id": 18,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-19.png",
-            "title": "فوريفر كالسيوم",
-            "desc": "يوزد الكمية الكافية اليومية التي يحتاجها   الجسم و تحافظ على بنية العظام وظيفة العضلات العادية لضمان وظيفة الغضاريف بصفة عادية."
+            "title": "FOREVER CALCIUM",
+            "newPrice": "4.400",
+            "ref": "206",
+            "desc": "يزود الجسم الكمية الكافية اليومية التي يحتاجها و تحافظ على بنية العظام  و ايضا وظيفة العضلات العادية لضمان عمل الغضاريف بصفة جيدة "
         },
         {
             "id": 19,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-20.png",
-            "title": "فوريفر ايل ثيم ",
+            "title": "FOREVER Garlic-Thyme",
+            "newPrice": "3.300",
+            "ref": "65",
             "desc": "مزيج من نبتتين معروفتين الثوم و الزعتر  دوروهما في تأمين الراحة الجهاز الهضمي كبسولة بدون رائحة  تعادل 1000مغ من ثوم طازج ."
         },
         {
             "id": 20,
-            "type": ["fitness", "single"],
+            "type": ["bee", "single"],
             "image": "products-21.png",
-            "title": "فوريفر  روايال جيلي",
+            "title": "FOREVER ROYAL JELLY",
+            "newPrice": "6.000",
+            "ref": "36",
             "desc": "يعد غداء الملكة مثاليا للوقاية من اثار الفترة الشتوية و يعزز دفاعات الطبيعية بكل نعومة لمواجهه فصل شتاء بأحسن حال ."
         },
         {
             "id": 21,
             "type": ["fitness", "single"],
             "image": "products-22.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE MSM GEL",
+            "newPrice": "4.200",
+            "ref": "205",
+            "desc": "غني بالكبريت العضوي بتركيز عال , سولفات الكوندويتين و الجلوكوزامين  و يلعب دورا  هاما للحفاظ على نسيج الضام و البروتينات."
         },
         {
             "id": 22,
             "type": ["fitness", "single"],
             "image": "products-23.png",
-            "title": "فوريفر لين ",
+            "title": "FOREVER LEAN",
+            "newPrice": "5.700",
+            "ref": "289",
             "desc": "يساعد على حفاظ  على نسبة السكر في الدم و تعديل الأيض , تقليل من  معدل استهلاك السعرات الحرارية اليومية و تضمن  تحكما اكبر في الوزن ."
         },
         {
             "id": 23,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-24.png",
-            "title": "الوي MSM",
-            "desc": "غني بالكبريت العضوي بتركيز عال , سولفات الكوندويتين و الجلوكوزامين و يلعب دورا  هاما للحفاظ على نسيج الضام و البروتينات."
+            "title": "ALOE-JOJOBA CONDITIONNING RINSE",
+            "newPrice": "2.900",
+            "ref": "522",
+            "desc": "بلسم من فوريفر غني بالفيتامينات B  و البروتينات و الألويفيرا يمنح لشعركم ترطيبا مثاليا, يحمي الشعر و يلطفه , يسهل عملية الفرز و يخفف الكهرباء الراكدة ."
         },
         {
             "id": 24,
-            "type": ["fitness", "assemble"],
+            "type": ["beauty", "pack"],
             "image": "products-25.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "PACK FOREVER HAIR CARE",
+            "oldPrice": "13.700",
+            "newPrice": "12.500",
+            "ref": "805",
+            "desc": "توفر لك قوة و نعومة بكل لطف لفروة رأسك , توقف لتساقط شعرو حماية من التلف,توقف مشاكل  القشرة, مناسب لجميع انواع الشعر ."
         },
         {
             "id": 25,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-26.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "ALOE-JOJOBA SHAMPOO",
+            "newPrice": "3.300",
+            "ref": "521",
+            "desc": "شامبو من فوريفير ذو صيغة مركزة العناب و الورد البري و زيوت الخزامى يعيد رطوبة الشعر و يزيد من كثافة الشعربفضل قاعدة PH المحايدة و يستعيد نعومته و لمعانه يليق لكل انواع الشعر ."
         },
         {
             "id": 26,
             "type": ["fitness", "single"],
             "image": "products-27.png",
-            "title": "فوريفر الترا لايت",
-            "desc": "بروتين  نباتي للحفاظ على الرشافة و الكتلة العضلية , يمكن تكمل  15 وجبة   خفيفة بتوفير الفيتامينات و المعادن و الكربوهيدرات في  اداء العادي لعملية الأيض الطاقوي."
+            "title": "FOREVER LITE ULTRA",
+            "newPrice": "3.600",
+            "ref": "470",
+            "desc": "بروتين  نباتي للحفاظ على الرشافة و الكتلة العضلية , يمكنه تعويض 15 وجبة   خفيفة بتوفير الفيتامينات و المعادن و الكيبوهيدرات في  اداء العادي لعملية الأيض الطاقوي فعال ."
         },
         {
             "id": 27,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-28.png",
-            "title": "منقوع  زهرة الوا",
+            "title": "ALOE BLOSSOM HERBAL TEA",
+            "newPrice": "3.200",
+            "ref": "200",
             "desc": "مشروب ذو نكهة الشهية واللطيفة  يوفر  راحة للجهاز الهضمي و يعيد  تمييه الجسم بكل لطف و مفيد جدا لحالات التعب و الإرهاق القلق,ارق النوم"
         },
         {
             "id": 28,
-            "type": ["fitness", "single"],
+            "type": ["beauty", "single"],
             "image": "products-29.png",
-            "title": "Product five",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, recusandae asperiores."
+            "title": "STICK DéODORANT ALOES",
+            "newPrice": "1.300",
+            "ref": "67",
+            "desc": "لا يحتوى على أملاح الألومنيوم ولا الكحول ,عطره خفيف وفعال لايترك بقعا في الثياب , صبغته  المركزة تضمن النعومة و الرطوبة للبشرة."
         },
         {
             "id": 29,
-            "type": ["fitness", "single"],
+            "type": ["nutrition", "single"],
             "image": "products-30.png",
-            "title": "فوريفر اكتيف برو-بيي",
+            "title": "FOREVER ACTIVE PRO-B",
+            "newPrice": "5.900",
+            "ref": "610",
             "desc": " تحسن  من اداء الجسم و تشعر بالراحة المعوية  وتعزيز النبتات المعوية"
         }
     ],
@@ -241,27 +304,27 @@
     "Companies" : [
         {
             "id": 0,
-            "image": "company-01.png",
-            "title": "Amir Diafi",
-   	    "href": "https://amirdiafi.com"
-	},
-        {
-            "id": 1,
-            "image": "company-02.png",
-            "title": "React Js",
-   	    "href": "https://amirdiafi.com"
+            "image": "company-03.png",
+            "title": "Forever living",
+            "href": "https://www.foreverliving.fr"
         },
         {
+            "id": 1,
+            "image": "company-01.png",
+            "title": "Amir Dev",
+   	        "href": "https://amirdiafi.com"
+	    },
+        {
             "id": 2,
-            "image": "company-03.png",
-            "title": "Forever",
-   	    "href": "https://amirdiafi.com"
-	},
+            "image": "company-02.png",
+            "title": "Nord et ouest express",
+   	        "href": "https://www.noest-dz.com"
+        },
         {
             "id": 3,
-            "image": "company-02.png",
-            "title": "Company One",
-   	    "href": "https://amirdiafi.com"
-	}
+            "image": "company-04.png",
+            "title": "Algerie Post",
+            "href": "https://eccp.poste.dz"
+        }
     ]
 }
