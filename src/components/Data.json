@@ -29,7 +29,7 @@
         {
             "id": 0,
             "type": ["beauty", "single"],
-            "image": "products-01.png",
+            "image": "products-01.PNG",
             "title": "ALOE FIRST",
             "newPrice": "3.600",
             "ref": "40",
@@ -38,7 +38,7 @@
         {
             "id": 1,
             "type": ["beauty", "single"],
-            "image": "products-02.png",
+            "image": "products-02.PNG",
             "title": "ALOE MOISTURIZING LOTION",
             "newPrice": "2.700",
             "ref": "63",
@@ -47,7 +47,7 @@
         {
             "id": 2,
             "type": ["fitness", "pack"],
-            "image": "products-03.png",
+            "image": "products-03.PNG",
             "title": "PACK SPORTEVER",
             "oldPrice": "22.000",
             "newPrice": "16.800",
@@ -57,7 +57,7 @@
         {
             "id": 3,
             "type": ["well", "single"],
-            "image": "products-04.png",
+            "image": "products-04.PNG",
             "title": "FOREVER FREEDOM",
             "newPrice": "6.300",
             "ref": "196",
@@ -66,7 +66,7 @@
         {
             "id": 4,
             "type": ["fitness", "single"],
-            "image": "products-05.png",
+            "image": "products-05.PNG",
             "title": "FOREVER ARGI+ ",
             "newPrice": "9.300",
             "ref": "473",
@@ -75,7 +75,7 @@
         {
             "id": 5,
             "type": ["well", "single"],
-            "image": "products-06.png",
+            "image": "products-06.PNG",
             "title": "FOREVER ALOEVERA GEL",
             "newPrice": "4.600",
             "ref": "15",
@@ -84,7 +84,7 @@
         {
             "id": 6,
             "type": ["beauty", "single"],
-            "image": "products-07.png",
+            "image": "products-07.PNG",
             "title": "SAVON CORPS ET VISAGE A L’AVOCAT",
             "newPrice": "900",
             "ref": "284",
@@ -93,7 +93,7 @@
         {
             "id": 7,
             "type": ["beauty", "single"],
-            "image": "products-08.png",
+            "image": "products-08.PNG",
             "title": "FOREVER ALOE SCRUB",
             "newPrice": "2.900",
             "ref": "238",
@@ -102,7 +102,7 @@
         {
             "id": 8,
             "type": ["nutrition", "single"],
-            "image": "products-09.png",
+            "image": "products-09.PNG",
             "title": "FOREVER ARTIC-SEA",
             "newPrice": "5.500",
             "ref": "376",
@@ -111,7 +111,7 @@
         {
             "id": 9,
             "type": ["beauty", "single"],
-            "image": "products-10.png",
+            "image": "products-10.PNG",
             "title": "ALOE VERA GELLY",
             "newPrice": "2.700",
             "ref": "61",
@@ -120,7 +120,7 @@
         {
             "id": 10,
             "type": ["beauty", "single"],
-            "image": "products-11.png",
+            "image": "products-11.PNG",
             "title": "ALOE PROPOLIS créme",
             "newPrice": "3.600",
             "ref": "51",
@@ -129,7 +129,7 @@
         {
             "id": 11,
             "type": ["fitness", "single"],
-            "image": "products-12.png",
+            "image": "products-12.PNG",
             "title": "ALOE HEAT LOTION",
             "newPrice": "2.700",
             "ref": "64",
@@ -138,7 +138,7 @@
         {
             "id":12,
             "type": ["beauty", "single"],
-            "image": "products-13.png",
+            "image": "products-13.PNG",
             "title": "DENTIFRICE FOREVER BRIGHT",
             "newPrice": "1.400",
             "ref": "28",
@@ -147,7 +147,7 @@
         {
             "id": 13,
             "type": ["beauty", "single"],
-            "image": "products-14.png",
+            "image": "products-14.PNG",
             "title": "ECRAN SOLAIRE ALOE",
             "newPrice": "2.700",
             "ref": "199",
@@ -166,7 +166,7 @@
         {
             "id": 15,
             "type": ["beauty", "single"],
-            "image": "products-16.png",
+            "image": "products-16.PNG",
             "title": "BIO-CELLULOSE MASK",
             "newPrice": "1.700",
             "ref": "616",
@@ -175,7 +175,7 @@
         {
             "id": 16,
             "type": ["fitness", "single"],
-            "image": "products-17.png",
+            "image": "products-17.PNG",
             "title": "FOREVER THERM",
             "newPrice": "4.900",
             "ref": "463",
@@ -184,7 +184,7 @@
         {
             "id": 17,
             "type": ["nutrition", "single"],
-            "image": "products-18.png",
+            "image": "products-18.PNG",
             "title": "FOREVER ACTIVE HA",
             "newPrice": "5.500",
             "ref": "264",
@@ -193,7 +193,7 @@
         {
             "id": 18,
             "type": ["nutrition", "single"],
-            "image": "products-19.png",
+            "image": "products-19.PNG",
             "title": "FOREVER CALCIUM",
             "newPrice": "4.400",
             "ref": "206",
@@ -202,7 +202,7 @@
         {
             "id": 19,
             "type": ["nutrition", "single"],
-            "image": "products-20.png",
+            "image": "products-20.PNG",
             "title": "FOREVER Garlic-Thyme",
             "newPrice": "3.300",
             "ref": "65",
@@ -211,7 +211,7 @@
         {
             "id": 20,
             "type": ["bee", "single"],
-            "image": "products-21.png",
+            "image": "products-21.PNG",
             "title": "FOREVER ROYAL JELLY",
             "newPrice": "6.000",
             "ref": "36",
@@ -220,7 +220,7 @@
         {
             "id": 21,
             "type": ["fitness", "single"],
-            "image": "products-22.png",
+            "image": "products-22.PNG",
             "title": "ALOE MSM GEL",
             "newPrice": "4.200",
             "ref": "205",
@@ -229,7 +229,7 @@
         {
             "id": 22,
             "type": ["fitness", "single"],
-            "image": "products-23.png",
+            "image": "products-23.PNG",
             "title": "FOREVER LEAN",
             "newPrice": "5.700",
             "ref": "289",
@@ -238,7 +238,7 @@
         {
             "id": 23,
             "type": ["beauty", "single"],
-            "image": "products-24.png",
+            "image": "products-24.PNG",
             "title": "ALOE-JOJOBA CONDITIONNING RINSE",
             "newPrice": "2.900",
             "ref": "522",
@@ -257,7 +257,7 @@
         {
             "id": 25,
             "type": ["beauty", "single"],
-            "image": "products-26.png",
+            "image": "products-26.PNG",
             "title": "ALOE-JOJOBA SHAMPOO",
             "newPrice": "3.300",
             "ref": "521",
@@ -266,7 +266,7 @@
         {
             "id": 26,
             "type": ["fitness", "single"],
-            "image": "products-27.png",
+            "image": "products-27.PNG",
             "title": "FOREVER LITE ULTRA",
             "newPrice": "3.600",
             "ref": "470",
@@ -275,7 +275,7 @@
         {
             "id": 27,
             "type": ["nutrition", "single"],
-            "image": "products-28.png",
+            "image": "products-28.PNG",
             "title": "ALOE BLOSSOM HERBAL TEA",
             "newPrice": "3.200",
             "ref": "200",
@@ -284,7 +284,7 @@
         {
             "id": 28,
             "type": ["beauty", "single"],
-            "image": "products-29.png",
+            "image": "products-29.PNG",
             "title": "STICK DéODORANT ALOES",
             "newPrice": "1.300",
             "ref": "67",
@@ -293,7 +293,7 @@
         {
             "id": 29,
             "type": ["nutrition", "single"],
-            "image": "products-30.png",
+            "image": "products-30.PNG",
             "title": "FOREVER ACTIVE PRO-B",
             "newPrice": "5.900",
             "ref": "610",
@@ -302,7 +302,7 @@
         {
             "id": 30,
             "type": ["well", "single"],
-            "image": "products-31.png",
+            "image": "products-31.PNG",
             "title": "BERRY  FOREVER ALOE NECTAR",
             "newPrice": "4.600",
             "ref": "34",
@@ -311,7 +311,7 @@
         {
             "id": 31,
             "type": ["nutrition", "single"],
-            "image": "products-32.png",
+            "image": "products-32.PNG",
             "title": "GINKO PLUS FOREVER",
             "newPrice": "5.700",
             "ref": "73",
@@ -338,7 +338,7 @@
         {
             "id": 34,
             "type": ["nutrition", "single"],
-            "image": "products-35.png",
+            "image": "products-35.PNG",
             "title": "FOREVER ABSORBENT-C",
             "newPrice": "3.200",
             "ref": "48",
@@ -347,7 +347,7 @@
         {
             "id": 35,
             "type": ["bee", "single"],
-            "image": "products-36.png",
+            "image": "products-36.PNG",
             "title": "FOREVER BEE POLLEN",
             "newPrice": "2.800",
             "ref": "26 ",
@@ -356,7 +356,7 @@
         {
             "id": 36,
             "type": ["nutrition", "single"],
-            "image": "products-37.png",
+            "image": "products-37.PNG",
             "title": " PROPOLIS FOREVER",
             "newPrice": "5800",
             "ref": "27",
