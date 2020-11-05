@@ -131,7 +131,7 @@
 }
 
 .fixed-messenger .body.open .head {
-    background: url('./assets/images/messenger-back-2.jpg');
+    background:#001525;
     color: #fff;
     display: flex;
     border-radius: 5px 5px 0 0;
@@ -179,8 +179,7 @@
 }
 
 .fixed-messenger .content .message {
-    /*background: #001525;*/
-    background: url('./assets/images/messenger-back-2.jpg');
+    background: #001525;
     background-size: cover;
     color: #eee;
     padding: 10px;

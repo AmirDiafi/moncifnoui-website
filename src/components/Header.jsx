@@ -20,7 +20,7 @@ class Header extends React.Component {
             <header className="header" id="home">
 		<div className="go-down-icon" ref={this.goDown}><FaChevronDown /></div>
                 <div className="content text-right">
-		    <h1>مرحبا, أنا منصف مقاول حر</h1>
+		    <h1>مرحبا بك</h1>
 		</div>
             </header>
         )

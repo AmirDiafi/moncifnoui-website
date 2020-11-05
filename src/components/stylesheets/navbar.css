@@ -42,7 +42,6 @@ nav.navbar ul li {
 nav.navbar ul li a {
     color: #fff;
     padding: 5px 10px;
-    //background: purple;
     border-bottom: 5px solid #2196f3;
     border-radius: 5px;
     cursor: pointer;
@@ -60,16 +59,16 @@ nav.navbar ul li a.active {
 }
 
 @media (max-width: 600px) {
-    nav.navbar .logo,
-    nav.navbar .ul {
+    nav.navbar .logo {
         margin: 5px auto
    }
 nav.navbar ul {
-    overflow-x: auto
+    overflow-x: auto;
+    margin: auto;
 }
 
 nav.navbar ul a{
-    font-size: 15px
+    font-size: 13px
 }
 
 }

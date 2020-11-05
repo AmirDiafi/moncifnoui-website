@@ -3,7 +3,7 @@ header {
     background: #333;
     color: #fff;
     position: relative;
-    background: url('../../assets/images/header-5.jpeg') center no-repeat;
+    background: url('../../assets/images/header.jpg') center no-repeat;
     background-size: cover;
     //filter: brightness(0.5)
     
@@ -25,7 +25,7 @@ header .content h1{
 header div.go-down-icon {
     position: absolute;
     bottom:20px;
-    left: 45%;
+    left: 50%;
     transform: translateX(-50%);
     font-size: 40px;
     cursor: pointer; 
@@ -47,6 +47,9 @@ header div.go-down-icon {
 
 header .content h1{
     font-size: 37px;
+}
+header div.go-down-icon {
+    left: 45%;
 }
 
 }

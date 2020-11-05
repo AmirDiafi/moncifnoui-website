@@ -29,7 +29,7 @@ class Contact extends React.Component {
 			    <a href="tel:+213556374256">
                             +213556374256
                         </a>
-                        <hr/>
+                        <br/>
 			<a href="tel:+213662585829">
                              +213662585829
                         </a>
@@ -45,7 +45,7 @@ class Contact extends React.Component {
                             rel="noopener noreferrer">
                             +213556374256
                         </a>
-                        <hr/>
+                        <br/>
 			<a 
                             href="https://wa.me/213662585829" 
                             target="_blank"
