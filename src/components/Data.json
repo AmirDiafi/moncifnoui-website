@@ -102,7 +102,7 @@
         {
             "id": 8,
             "type": ["nutrition", "single"],
-            "image": "products-09.PNG",
+            "image": "products-09.png",
             "title": "FOREVER ARTIC-SEA",
             "newPrice": "5.500",
             "ref": "376",
@@ -156,7 +156,7 @@
         {
             "id": 14,
             "type": ["fitness", "pack"],
-            "image": "products-15.png",
+            "image": "products-15.PNG",
             "title": "PACK DETOX",
             "oldPrice": "23.300",
             "newPrice": "17.700",
@@ -175,7 +175,7 @@
         {
             "id": 16,
             "type": ["fitness", "single"],
-            "image": "products-17.PNG",
+            "image": "products-17.png",
             "title": "FOREVER THERM",
             "newPrice": "4.900",
             "ref": "463",
