@@ -11,15 +11,14 @@ class Products extends React.Component {
     componentDidMount() {
 	window.scrollTo(0,0)
         this.setState({
-            data: Data.Products
+            data: Data.Products.sort((a,b)=>b.id-a.id)
         })
     }
 
     handleFilterChange = (event) => {
-        console.log(event.target.value)
         if(event.target.value==='all') {
             this.setState({
-                data: Data.Products
+                data: Data.Products.sort((a,b)=>b.id-a.id)
             })
         } else {
 	    this.setState({
@@ -27,7 +26,7 @@ class Products extends React.Component {
                 .Products
                 .filter(product=>
                     product.type.includes(event.target.value)
-                )
+                ).sort((a,b)=>b.id-a.id)
             })
 	    }
     }
