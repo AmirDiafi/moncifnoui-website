@@ -13,12 +13,12 @@ function Home() {
       <Navbar />
       <Header />
       <div className="container">
+        <hr id="services"/>
         <Services />
-	<hr id="testimonials"/>
         <hr id="about"/>
         <About />
-        <hr id="services"/>
       </div>
+      <hr id="testimonials"/>
       <Testimonilas />
         <hr id="companies"/>
       < Companies />
