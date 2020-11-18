@@ -4,10 +4,11 @@ nav.navbar {
     top:0;
     left:0;
     width:100%;
-    background: rgba(0, 0, 0, .4);
+    background: linear-gradient(180deg, black, transparent );
     display: flex;
     color: #fff;
-    z-index: 2
+    z-index: 2;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 nav.navbar .logo {
@@ -42,8 +43,8 @@ nav.navbar ul li {
 nav.navbar ul li a {
     color: #fff;
     padding: 5px 10px;
-    border-bottom: 5px solid #2196f3;
-    border-radius: 5px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
     cursor: pointer;
     outline-color: #9C27B0 !important;
     transition: all .1s linear;

@@ -1,20 +1,46 @@
 import React from 'react'
 import './stylesheets/about.css'
 import ProfileImage from "../assets/images/profile.jpg"
+import {FaLinkedin, FaFacebook, FaInstagram} from 'react-icons/fa'
 
 class About extends React.Component {
     state = {  }
     render() {
         return (
             <div className="about ">
-		        <h2 className="title text-center">من أنا</h2>
                 <div className="row">
-                    <div className="head col-md-4">
+                    <div className="head col-md-6">
                         <img src={ProfileImage} alt=""/>
+			<ul className="list-unstyled">
+			    <li>
+			    <a 
+                		href="https://www.facebook.com/profile.php?id=100014100945642" 
+                		target="_blank"
+                		rel="noopener noreferrer">
+                		<FaFacebook/>
+            		    </a>
+			    </li>
+			    <li>
+            		    <a 
+                		href="https://www.instagram.com/moncif_noui" 
+                		target="_blank"
+                		rel="noopener noreferrer">
+                		<FaInstagram/>
+            		    </a>
+			    </li>
+			    <li>
+			    <a 
+                		href="https://www.facebook.com/profile.php?id=100014100945642" 
+                		target="_blank"
+                		rel="noopener noreferrer">
+                		<FaLinkedin/>
+            		    </a>
+			    </li>
+			</ul>
                     </div>
-                    <div className="body col-md-8">
+                    <div className="body col-md-6">
                         <div>
-                            <p>أنا اسمي منصف نوي </p>
+                            <p> منصف نوي </p>
                             <p>مقيم  في ولاية باتنة متخرج  من جامعة باتنة 2  تخصص هندسة مدنية .  انا فخور بكوني صاحب أعمال في مجال  التسويق بالعلاقات والبيع المباشر.</p>
                             <p>إن مساعدة الناس على خلق حياة بلا حدود هي الآن شغفي الأكبر!</p>
                             <hr/>

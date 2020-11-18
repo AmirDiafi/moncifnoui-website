@@ -20,7 +20,8 @@
 }
 
 .pay-method > a {
-    font-size: 18px
+    font-size: 18px;
+    border-radius: 30px
 }
 
 .pay-method > a svg{

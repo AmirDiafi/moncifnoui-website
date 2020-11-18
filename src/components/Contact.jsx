@@ -23,7 +23,7 @@ class Contact extends React.Component {
                         </a>
                     </div>
                     <hr/>
-                    <div className='item'> 
+                    <div className='item tel'> 
 			<FaPhone />
                         <div>
 			    <a href="tel:+213556374256">
@@ -36,7 +36,7 @@ class Contact extends React.Component {
 			</div>
                     </div>
                     <hr/>
-                    <div className='item'>
+                    <div className='item whatsapp'>
 			<FaWhatsapp/>
                         <div className="">
 			    <a 

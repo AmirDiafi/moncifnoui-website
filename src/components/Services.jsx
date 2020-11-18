@@ -17,7 +17,8 @@ class Services extends React.Component {
                                 <FaBriefcase />
                             </div>
                             <div className="body">
-                                فرص عمل
+                                <h5>فرص عمل</h5>
+			        <h6>إيدأ الأن</h6>
                             </div>
                         </Link>
                     </div>
@@ -27,7 +28,8 @@ class Services extends React.Component {
 				                <FaStore />                         
                             </div>
                             <div className="body">
-                                المتجر
+                                <h5>المتجر</h5>
+			        <h6>جرب منتوجاتنا</h6>
                             </div>
                         </Link>
                     </div>
@@ -37,7 +39,8 @@ class Services extends React.Component {
                                 <GiTeacher />
                             </div>
                             <div className="body">
-                                إستشارات وتكوين
+                                <h5>إستشارات وتكوين</h5>
+			        <h6>إيدأ الأن</h6>
                             </div>
                         </Link>
                     </div>

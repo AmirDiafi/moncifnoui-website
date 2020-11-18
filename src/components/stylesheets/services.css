@@ -6,12 +6,23 @@
     margin: 10px auto 20px
 }
 
+.services .row {
+    background: #efefef;
+    padding: 20px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
 .services .card {
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
-    color: #333;
-    text-decoration: none
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #2196f3;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .services .card:hover {
@@ -19,10 +30,10 @@
 }
 
 .services .card .head {
-    border-radius: 100%;;
+    border-radius: 100%;
     border: 1px solid #bbb;
-    width:50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -31,7 +42,7 @@
     margin: 10px auto;
     transition: all .2s ease;
     background: #2196f3;
-    color: #fff
+    color: #fff;
 }
 
 .services .card:hover .head {
@@ -41,4 +52,20 @@
 
 .services .body {
     font-size: 20px
+}
+
+.services .body h5 {
+    color: #eee;
+    font-size: 18px;
+    margin-bottom: 15px
+}
+
+.services .body h6 {
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    background: #004767;
+    filter: drop-shadow(2px 4px 6px black);
+    margin: 10px;
 }

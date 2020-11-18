@@ -79,7 +79,8 @@
     padding: 0;
     color: #fff;
     margin: 50px auto;
-    border-radius: 10px
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .works .item  .row {
@@ -87,7 +88,7 @@
 }
 
 .works .item.one {
-    background: #2196f3
+    background: #3F51B5
 }
 
 .works .item.tow {
@@ -171,7 +172,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    direction: ltr
+    direction: ltr;
+    filter: drop-shadow(2px 4px 6px black)
 }
 
 .works .demand > div .help{

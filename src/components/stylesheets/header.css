@@ -1,12 +1,10 @@
 header {
-    height: 100vh;
-    background: #333;
+    height: 75vh;
     color: #fff;
     position: relative;
     background: url('../../assets/images/header.jpg') center no-repeat;
     background-size: cover;
-    //filter: brightness(0.5)
-    
+    box-shadow: 0 5px 5px #00000094
 }
 
 header > .content {
@@ -20,8 +18,31 @@ header .content h1{
     color: #fff;
     font-weight: 300;
     font-size: 57px;
-    //filter: drop-shadow(2px 4px 6px #fff)
 }
+
+header .content .buttons {
+    margin-top: 30px;
+}
+
+header .content .buttons a {
+    border-radius: 30px;
+    margin: 10px;
+    border: none;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.7);
+    background: #007bffa6
+}
+
+header .content .buttons a.btn-secondary {
+    background: #00c708a6;
+}
+
+header .content .buttons a svg {
+    margin: 0 5px;
+    font-size: 14px;
+    filter: drop-shadow(4px 4px 3px black);
+    font-size: 25px;
+}
+
 header div.go-down-icon {
     position: absolute;
     bottom:20px;

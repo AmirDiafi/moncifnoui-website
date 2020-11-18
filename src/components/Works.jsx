@@ -4,6 +4,7 @@ import SecondaryNavbar from './SecondaryNavbar'
 import Video from '../assets/videos/works.mp4'
 import ImageOne from '../assets/images/works-one.jpg'
 import ImageTow from '../assets/images/works-tow.jpg'
+import VideoPoster from '../assets/images/header.jpg'
 import ImageProfile from '../assets/images/profile-messenger.jpg'
 import { FaPlay, FaPause } from 'react-icons/fa'
 
@@ -75,7 +76,7 @@ class Works extends React.Component {
 					<div 
 						style={{width: this.state.currentTime+"%"}} 
 						className="progress"></div>
-					<video ref={this.worksVideo} src={Video}>
+					<video poster={VideoPoster} ref={this.worksVideo} src={Video}>
 						Your browser does not support Video elements.
 					</video>
 				</div>

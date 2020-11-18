@@ -33,7 +33,8 @@ class Testimonials extends React.Component {
                     ماذا قال الناس حول خدماتي
                 </h2>
 		<div className="text-center head">
-                <div className="">
+		<div className="overlay"></div>
+                <div>
 		    <img src={"people/"+this.state.testimonial.image} alt="" />
                     <h3 className='name'>
                         {this.state.testimonial.name}
