@@ -23,7 +23,9 @@ header .content h1{
 header .content .buttons {
     margin-top: 30px;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header .content .buttons a {
