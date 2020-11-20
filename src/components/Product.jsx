@@ -18,10 +18,10 @@ class Product extends React.Component {
                         <h4 className="title text-center">
                             {this.props.data.title}
                         </h4>
-			            <hr/>
                         <p className="desc">
                             {this.props.data.desc}
                         </p>
+			            <hr/>
                         <div className='prices' >
                             {this.props.data.oldPrice
                             ?<span className='price old'>

@@ -28,8 +28,9 @@ function Footer() {
             <div className="copy col col-12">
                 2020 &copy; Moncif Noui
 		        <p className="developer">
-                    Designed and Developed By <a href="https://amirdiafi.com"> Amir Diafi </a>
+                    Designed and Developed By <a href="https://amirdiafi.com">Amir Diafi</a>
                 </p>
+		<p style={{color: "#bbb"}}>Version 0.1.1</p>
             </div>
             <div className="footer-line"></div>
         </footer>

@@ -12,14 +12,16 @@
 
 .about .row {
     padding: 10px;
-    margin-top: 20px;
     border-radius: 30px;
     transition: all .1s ease;
     text-align: center;
-    background: #2196f3d9;
+    background: #2196f3;
     color: #fff;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(2px 4px 6px black);
+    width: 100%;
+    margin: auto;
 }
 
 .about .head {
@@ -49,10 +51,10 @@
 }
 
 .about .head img{
-    width: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     padding: 5px;
-    height: 300px;
     text-align: center;
     display: block;
     margin: auto;
@@ -61,4 +63,11 @@
 
 .about .body p {
     font-size: 22px
+}
+
+@media (max-width: 400px) {
+    .about .head img {
+        width: 170px;
+        height: 170px
+    }
 }
