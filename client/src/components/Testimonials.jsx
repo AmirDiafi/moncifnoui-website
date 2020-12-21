@@ -35,7 +35,7 @@ class Testimonials extends React.Component {
 		<div className="text-center head">
 		<div className="overlay"></div>
                 <div>
-		    <img src="https://drive.google.com/uc?export=view&id=" alt="" />
+		    <img src={this.state.testimonial.image} alt="" />
                     <h3 className='name'>
                         {this.state.testimonial.name}
                     </h3>
