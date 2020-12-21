@@ -2,9 +2,9 @@ header {
     height: 75vh;
     color: #fff;
     position: relative;
-    background: url('https://drive.google.com/uc?export=view&id=1ba04ajHwVzAaITPeRoGHV-pVd2QrVKoM') center no-repeat;
+    background: url(https://drive.google.com/uc?export=view&id=1N5K3Zxm6dHNQMHyLouqM7GEMFFUzYDSz) 0% 80% no-repeat;
     background-size: cover;
-    box-shadow: 0 5px 5px #00000094
+    box-shadow: none
 }
 
 header > .content {

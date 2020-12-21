@@ -17,12 +17,12 @@
 
 .companies a li img{
     height: 100px;
-    filter: grayscale(1);
+    filter: brightness(0.5);
     transition: all .2s linear
 }
 
 .companies a:hover li img {
-    filter: grayscale(0)
+    filter: brightness(.2)
 }
 
 .companies a li h6 {
