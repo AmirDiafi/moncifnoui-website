@@ -9,7 +9,7 @@ class About extends React.Component {
             <div className="about ">
                 <div className="row">
                     <div className="head col-md-6">
-                        <img src='https://drive.google.com/uc?export=view&id=uCQv8semsH4nrl0K-N_v1TCuHV4nOYYc' alt=""/>
+                        <img src='https://drive.google.com/uc?export=view&id=1uCQv8semsH4nrl0K-N_v1TCuHV4nOYYc' alt=""/>
 			<ul className="list-unstyled">
 			    <li>
 			    <a 

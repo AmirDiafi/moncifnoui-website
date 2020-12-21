@@ -8,7 +8,7 @@ function Companies(){
         {Data.Companies.map(company => 
 	<a className="text-center" key={company.id} href={company.href} target="_{blank">
 	    <li>
-		<img style={company.image==='company-03.png'?{filter: 'invert(1)'}:null} src={"companies/"+company.image} alt="" />
+		<img style={company.image==='company-03.png'?{filter: 'invert(1)'}:null} src={company.image} alt="" />
 		<h6>{company.title}</h6>
 	    </li>
 	</a>
