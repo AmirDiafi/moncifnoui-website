@@ -34,3 +34,9 @@
     border-radius: 30px;
     width: 120px
 }
+
+@media(max-width: 450px) {
+    .login-form form {
+        width: 90%;
+    }
+}
